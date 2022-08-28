@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*************Start Of Home Page**********************/
+.home{
+    position: relative;
+}
+
+.home-img{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.home-text h1{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 75px;
+    align-items: center;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.home-text p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    margin: 2rem 0;
+    color: #FFFFFF;
+}
+
+.home .button{
+    margin: auto 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    width: 250px;
+    height: 80px;
+    left: 50rem;
+    top: 548px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 2px solid #ff5 ;
+    font-size: 2rem;
+    color: #555;
+    text-align: center;
+    margin: 1rem;
+}
+.btn3{
+    background: #ac9681;
+}
+/*************End Of Home Page**********************/
+
+
+/*************Start Of Navbar Section**********************/
+main{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #E5E5E5;
+    box-shadow: .1rem .1rem .1rem .1rem #0C0B0B;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav{
+    background: rgb(20, 20, 20);
+    height: 85vh;
+    width: 7rem;
+    border-radius: 2rem;
+    margin: 1rem 2rem;
+    box-shadow: .5rem .5rem .5rem .5rem #0C0B0B;
+    
+}
+
+.navbar-link{
+    color: #FFFFFF;
+    display: block;
+    padding: 2.3rem;
+    cursor: pointer;
+}
+
+.navbar-link i{
+    font-size: 3.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #F1D5BB;
+    width: 8rem;
+    height: 7rem;
+}
+
+h1{
+    font-family: Baloo Bhai;
+    Font-style: Regular;
+    Font-size: 80px;
+    line-height: 120px;
+    line-height: 100%;
+    align-items: Left;
+    vertical-align: Top;
+    color: #F1D5BB;
+    margin: 1.5rem 1.3rem;
+}
+
+/*************End Of Navbar Section**********************/
+
+
+
+/*************Start Of Menu Section**********************/
+.menu{
+    position: relative;
+    display: flexbox;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;    
+    margin-left: 10rem;
+}
+
+.menu-heading{
+    text-decoration: underline #ac9681;
+    text-underline-offset: .6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    Font-size: 45px;
+    Line-height: 63px;
+    Line-height: 100%;
+    align-items: Left;
+    Vertical-align: Top;
+    margin: 2rem 4rem;
+    color: #88827c;   
+}
+
+.menu-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.menu-list-items{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;    
+}
+
+.menu-img{
+    width: 20rem;
+    height: 20rem;
+    cursor: pointer;
+}
+
+
+h3{
+    font-family: Mulish;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: .5rem;
+    line-height: 25px;
+    line-height: 100%;
+    align-items:  Left;
+    Vertical-align: Top;
+}
+
+.menu-btn{
+    position: absolute;
+    margin-top: 90%;
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+}
+
+.menu-btn-tex{
+    background-color: #0C0B0B;
+    color: #E5E5E5;
+    padding: .4rem;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 2.5rem;
+    width:13rem;
+    border: none;
+    border-radius: 1px solid #000;    
+}
+
+/*************End Of Menu Section**********************/
+
+
+/*************Start Of Cart Section**********************/
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-heading{
+    text-decoration: underline #ac9681;
+    text-underline-offset: .7rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    Font-size: 42px;
+    Line-height: 63px;
+    Line-height: 100%;
+    align-items: Left;
+    Vertical-align: Top;
+    margin-top: -6rem;
+    color: #88827c; 
+}
+.cart-section{
+    position: relative;
+    display: inline-flexbox;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 40rem;
+    background-color: #F1D5BB;
+    margin-top: 8rem;
+    margin-left: -10rem;
+}
+
+.cart-list{
+    position: relative;
+    display: block;
+    margin: 5rem 1rem;
+}
+
+.cart-list-items1{
+    position: relative;
+    margin-top: 5rem;
+}
+
+.cart-name-des{
+    margin-left: 10rem;
+    margin-top: -3.5rem;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+.cart-span{
+    margin-left: 10rem;
+    margin-top: 4rem;
+    font-size: 1.1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.cart-menu-btn{
+    margin-left: 25rem;
+    margin-top: -3rem;
+}
+
+.btnnnc{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+}
+
+.cart-cancel{
+    margin-left: 35rem;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+.cart-menu-cancle{
+    cursor: pointer;
+}
+.cart-img{
+    width: 90px;
+    height: 90px;
+    border:1px ;
+    border-radius: 100px;
+}
+
+.btnnn{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+}
+
+
+.cart-order{
+    background-color: #F1D5BB;
+    height: 300px;
+    width: 400px;
+    left: 893px;
+    top: 135px;
+    border: #559 solid;
+    border-radius: 1px;
+    margin: 2rem 0 .5rem 0;
+}
+
+.cart-promo-section{
+    margin-top: 6rem;
+    margin-right: 2rem;
+}
+
+.order-description{
+    margin-left: 2rem;
+}
+
+.cart-order-heading{
+    position: relative;
+    width: 249px;
+    height: 50px;
+    top: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+}
+
+.cart-order-text{
+    margin-top: 5rem;
+    margin-left: 0;
+    margin-bottom: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+}
+
+span{
+    margin-left: 3rem;
+}
+
+.cart-order-btn{
+    background-color: #0C0B0B;
+    width: 20rem;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+.cart-promo{
+    background-color: #555;
+    height: 300px;
+    width: 400px;
+    left: 893px;
+    top: 417px;
+    border: #559 solid;
+    border-radius: 1px;
+}
+
+.promo-description{
+    margin: 2rem 0 0 2rem;
+}
+
+.cart-promo-code{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 1rem;
+}
+
+input{
+    width: 18rem;
+    height: 65px;
+    left: 933px;
+    top: 524px;
+    margin-bottom: 1rem;
+    background: #FFFFFF;
+    border: 1px solid #F1D5BB;
+    font-size: 2rem;
+}
+
+input::placeholder{
+    width: 236px;
+    height: 38px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 30px;
+    line-height: 38px;
+    color: #555;
+    margin: .5rem 0 0 2rem;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    box-shadow: .1rem .1rem .1rem .1rem #bec2be ;
+}
+
+.cart-promo-btn{
+    height: 78px;
+    width: 10rem;
+    background: #000000;
+    color: #FFFFFF;
+}
+/*************End Of Cart Section**********************/
+
+
+/***Responsiveness**/
+
+@media (max-width: 1700px) {
+    .menu-img{
+        width: 16rem;
+        height: 16rem;
+        padding: 2rem;
+        margin-left: 1rem;
+    }
+    
+}
+@media (max-width: 1750px) {
+    .menu-img{
+        width: 16rem;
+        height: 16rem;
+    }
+    
+}
+@media (max-width: 1650px) {
+    nav{
+        height: 80%;
+    }
+    .navbar-link{
+        padding: 2rem;
+    }
+    .menu-img{
+        width: 16rem;
+        height: 16rem;
+        margin: 1rem 0;
+    }
+    .cart-section{
+        margin-left: 2rem;
+    }
+    .cart-promo-section{
+        display: block;
+        margin-left: 10rem;       
+    }
+
+    
+}
+@media (max-width: 1600px) {
+    .home-text h1{
+        font-size: 3.5rem;
+    }
+    .home .button{
+        display: flex;
+    }
+    .menu{
+        margin-left: 1rem;
+    }
+    .menu-img{
+        width: 10rem;
+        height: 10rem;
+        margin: 0 0;
+        padding: 0%;
+    }
+    
+}
+
+@media (max-width: 1440px) {
+    .menu-img{
+        width: 15rem;
+        height: 15rem;
+    }
+    .container{
+        display: block;
+    }
+    .cart-section{
+        display: block;
+        margin-top: -50rem;
+        margin-left: 14rem;
+        height: 50rem;
+    }
+    .cart-promo-section{
+        margin-left: 2rem;
+        display: flex;
+    }
+    .cart-order{
+        margin: 2rem 1rem;
+    }
+    .cart-promo{
+        margin: 2rem;
+    }
+    
+    
+}
+@media (max-width: 1000px) {
+    .menu{
+        margin: 1rem;
+        height: 100vh;
+    }
+    .menu-img{
+        width: 14rem;
+        height: 14rem;
+    }
+}
+@media (max-width:  900px) {
+    .menu{
+        height: 120vh;
+        margin: 1rem;
+    }
+    .menu-heading{
+        font-size: 2rem;
+    }
+    .menu-img{
+        width: 10rem;
+        height: 9rem;
+    }
+    .container{
+        display: block;
+    }
+    .cart-section{
+        padding: 20px;
+        width: 30rem;
+    }
+    .cart-promo-section{
+        display: block;
+        margin-left: 10rem;       
+    }
+
+        .cart-order{
+        margin: 2rem;
+    }
+    .cart-section{
+        margin-top: -45rem;
+        height: 30rem;
+    }
+    .cart-list{
+        margin: 2rem .5rem;
+    }
+    .cart-menu-btn{
+        margin-left: 19rem;
+    }
+    .cart-cancel{
+        margin-left: 25rem;
+    }
+    @media (max-width: 600px) {
+        
+    }
+    @media (max-width: 500px) {
+        
+    }
+    @media (max-width: 350px) {
+        
+    }
+
+}
